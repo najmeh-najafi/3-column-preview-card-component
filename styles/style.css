@@ -1,0 +1,115 @@
+/* -----------------------start reset styles --------------------*/
+html,
+body{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: #F2F2F2;
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+    font-family: inherit;
+}
+/* -----------------------end reset styles --------------------*/
+/* -----------------------start main styles ------------------- */
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F2F2F2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    
+}
+.columns-container{
+    width: 920px;
+    height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #E28625;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.column{
+    width: 307px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 307px;
+            flex: 0 0 307px;
+    color: #F2F2F2;
+    padding: 48px;
+}
+.column--one{
+    background-color: #E28625;
+    border-radius: 8px 0 0 8px;
+}
+.column--two{
+    background-color: #006971;
+    border-radius: 8px;
+}
+.column--three{
+    background-color: #004140;
+}
+.column--one .column__more-btn{
+    color: #E28625;
+}
+.column--two .column__more-btn{
+    color: #006971;
+}
+.column--three .column__more-btn{
+    color: #004140;
+}
+.column__img{
+    max-width: 64px;
+     margin-bottom: 35px;
+}
+.column__title{
+    font-family: "Big Shoulders Display",sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.column__description{
+    font-family:"Lexend Deca",sans-serif ;
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+    margin-bottom: 83px;
+}
+.column__more-btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 11px 31.5px 12px;
+    font-family:"Lexend Deca",sans-serif ;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    -webkit-transition: all 0.3s ;
+    transition: all 0.3s ;
+    border:2px solid transparent;
+}
+.column__more-btn:hover{
+   background-color: transparent;
+   color: white;
+   border:2px solid white;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
